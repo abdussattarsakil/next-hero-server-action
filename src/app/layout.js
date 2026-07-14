@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col bg-background text-foreground">
 
         <NextThemeProviders>
-          <Navbar />
+          <Navbar></Navbar>
           <main>{children}</main>
         </NextThemeProviders>
 
