@@ -1,4 +1,5 @@
 import { Link, Button } from "@heroui/react";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
     return (
@@ -16,7 +17,7 @@ const Navbar = () => {
                     </ul>
 
                     <div>
-                        
+                        <ThemeToggle />
                     </div>
                 </header>
             </nav>
